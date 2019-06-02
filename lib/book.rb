@@ -1,5 +1,5 @@
 class Book
-  att_accessor :GENRES
+  att_accessor :author, :page_count
   GENRES = []
 
   def initialize(title)
