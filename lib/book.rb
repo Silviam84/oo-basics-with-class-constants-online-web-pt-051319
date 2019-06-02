@@ -1,4 +1,5 @@
 class Book
+  att_accessor :GENRES
   GENRES = []
 
   def initialize(title)
